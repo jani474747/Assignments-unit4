@@ -1,0 +1,14 @@
+1.dbs                                         -  to show data base
+2.dbs_name                                        -  to make database
+3.db                                                    -  to show in which database you are
+4.show collections                              - to show collections in database
+5.db.create collections                        - to create collections inside database
+6.db.coll_name.insert                         - to insert data inside the collections
+7.db.coll_name.insertMany                - to insert many data inside the collections
+8.db.coll_name.find.pretty                  - to find the data inside the collection
+9.db.coll_name.findOne                      - to find the data inside the collection which is firstly created
+10.db.coll_name.find({})                     - to find the data inside the collections using keyvalue
+11.db.coll_name.update                        - to update that data using the key value
+12.db.coll_name.update many              - to update many data at once using the key values
+13.db.coll_name.remove                      - to remove row by key values
+14.db.dropDatabase()                           - to delete database;
