@@ -1,0 +1,15 @@
+1. show dbs 							to show databases.
+2. use db_name 							to make database.
+3. db 								to check in which data base you are.
+4. show collections 							to show collections inside DB
+5. db.createCollection("coll_name")					to create collection inside DB.
+6. db.coll_name.insert({key:"value"})					to insert data inside collections
+7. db.coll_name.insertMany([{key:"value"},{key:"value"},{key:"value"},.......])		to insert many data inside collections
+8. db.coll_name.find({}).pretty()						to finde data inside collection.
+9. db.coll_name.find({key:"value"})					to find data by key name.
+10. db.coll_name.findOne({key:"value"})					to find data by name, it will give which is inserted first.
+11. db.coll_namer.update({key:"value"}, {key:"value"})				to update data, by key value pair.(some draback)
+12. db.coll_name.update({key:"value"}, {$set :{key:"value"}})			to update data, by key value pair.(right way)
+13. db.coll_name.updateMany({}, {key:"value"})				add key value paire in every document
+14. db.coll_name.remove({key:"value"})					to remove row bye key value pair
+15.db.dropDatabase()						to delete database
